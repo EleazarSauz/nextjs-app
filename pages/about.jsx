@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+export default function About() {
     return (
         <div className="container mx-auto p-4">
             <h2 className="text-4xl">About us:</h2>
@@ -27,5 +27,3 @@ const About = () => {
         </div>
     )
 }
-
-export default About
