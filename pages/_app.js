@@ -16,6 +16,12 @@ export default function App({ Component, pageProps }) {
 
         <NavBar/>
         <Component {...pageProps} />
+
+        <footer className="text-center p-3 mt-5">
+          made with &nbsp;
+          <i className="fa fa-2x fa-heart animate__animated animate__infinite animate__pulse " style={{color: "#ef4e5b"}}></i>
+          &nbsp; by: <a href="https://twitter.com/EleazarSauz" target="_blank" rel="noopener noreferrer">@EleazarSauz</a>
+        </footer>
     </>
     )
 }

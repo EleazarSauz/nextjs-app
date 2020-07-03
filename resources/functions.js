@@ -1,4 +1,4 @@
-const TOKEN = 'ukoSxdM_qP_zKI2Xe5VBgM43tK_UEGMH7AZvPntY1Vk'
+const TOKEN = process.env.TOKEN
 const URI = 'https://api.unsplash.com/photos/?client_id='
 
 export const getListImg = async () => {
